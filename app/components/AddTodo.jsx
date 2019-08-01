@@ -18,7 +18,7 @@ export default class AddTodo extends React.Component {
       <div className="add-todo">
         <input type="text" placeholder="Todo four" ref="todoTitle" />
         <button className="add-button" onClick={this.addTodo.bind(this)}>
-          Add Todo
+          Add class
         </button>
       </div>
     );

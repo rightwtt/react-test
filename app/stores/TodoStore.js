@@ -4,9 +4,9 @@ import assign from 'object-assign';
 const TodoStore = assign({}, EventEmitter.prototype, {
   items: {
     todos: [
-      { id: 0, name: 'Todo one', done: false },
-      { id: 1, name: 'Todo two', done: false },
-      { id: 2, name: 'Todo three', done: false },
+      { id: 0, name: 'Class one', done: false },
+      { id: 1, name: 'Class two', done: false },
+      { id: 2, name: 'Class three', done: false },
     ]
   },
 

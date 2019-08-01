@@ -9,11 +9,11 @@ function shallowRender(Component, props) {
   return renderer.getRenderOutput();
 }
 
-describe('Shallow Rendering', function () {
-  it('Todo item should not have todo-done class', function () {
-    const todoItemData = { id: 0, name: 'Todo one', done: false };
-    const todoItem = shallowRender(TodoItem, {todo: todoItemData});
-    expect(todoItem.props.children[0].props.className.indexOf('todo-done')).to.equal(-1);
-  });
-});
+// describe('Shallow Rendering', function () {
+//   it('Todo item should not have todo-done class', function () {
+//     const todoItemData = { id: 0, name: 'Todo one', done: false };
+//     const todoItem = shallowRender(TodoItem, {todo: todoItemData});
+//     expect(todoItem.props.children[0].props.className.indexOf('todo-done')).to.equal(-1);
+//   });
+// });
 
