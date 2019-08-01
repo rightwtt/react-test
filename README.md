@@ -8,11 +8,11 @@ $ open http://127.0.0.1:8080
 
 
 
-5个test：
+3个test：
 
 > 1. App标题为"ADC课程"
 > 2. Click a Delete button, the Todo item should be deleted
-> 1. Click the Add Todo button, a new Todo item should be added into the TodoList
+> 3. Click the Add Todo button, a new Todo item should be added into the TodoList
 
 测试步骤：
 $ npm test
